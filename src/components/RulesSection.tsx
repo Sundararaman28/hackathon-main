@@ -33,8 +33,8 @@ const RulesSection = () => {
   ];
 
   const prizeRules = [
-    "First place: $7,500",
-    "Second place: $5,000",
+    "First place: ₹7,500",
+    "Second place: ₹5,000",
     "Third place: Swag"
   ];
 
