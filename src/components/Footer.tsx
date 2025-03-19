@@ -80,7 +80,7 @@ const Footer = () => {
               </li>
               <li className="text-white/70">
                 <span className="block font-medium text-white">Submission Deadline:</span>
-                <span>March 31, 2025</span>
+                <span>March 30, 2025</span>
               </li>
             </ul>
           </div>
