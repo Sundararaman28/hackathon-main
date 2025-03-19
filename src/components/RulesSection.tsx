@@ -36,7 +36,7 @@ const RulesSection = () => {
     "First place: ₹6,000",
     "Second place: ₹4,000",
     "Third place: Swag",
-    "Certificates for all participants"
+    "Certificates for all participants."
   ];
 
   const internshipRules = [
