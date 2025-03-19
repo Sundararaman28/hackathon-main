@@ -28,7 +28,7 @@ const RulesSection = () => {
   ];
 
   const dateRules = [
-    "The hackathon will run from March 24th to March 31st.",
+    "The hackathon will run from March 24th to March 30st.",
     "Results will be announced on April 7th."
   ];
 
@@ -115,7 +115,7 @@ const RulesSection = () => {
                   </div>
                   <div>
                     <p className="font-medium text-hackathon-dark">Hackathon Period</p>
-                    <p className="text-sm text-muted-foreground">March 24th - March 31st, 2025</p>
+                    <p className="text-sm text-muted-foreground">March 24th - March 30st, 2025</p>
                   </div>
                 </div>
                 
@@ -184,7 +184,7 @@ const RulesSection = () => {
               </AccordionTrigger>
               <AccordionContent>
                 <ul className="space-y-3 pl-7">
-                  <li className="list-disc text-muted-foreground">Commits must reflect work done *during* the hackathon timeframe (March 24th - 31th). Submitting pre-existing projects or large portions of pre-written code is strictly prohibited.</li>
+                  <li className="list-disc text-muted-foreground">Commits must reflect work done *during* the hackathon timeframe (March 24th - 30th). Submitting pre-existing projects or large portions of pre-written code is strictly prohibited.</li>
                   <li className="list-disc text-muted-foreground">The project must be built from scratch, with the exception of using open-source libraries and packages.</li>
                 </ul>
               </AccordionContent>
@@ -253,7 +253,7 @@ const RulesSection = () => {
               </h3>
               
               <p className="mt-4 text-muted-foreground">
-                All submissions must be made by 11:59 PM on March 31st. Late submissions will not be accepted under any circumstances.
+                All submissions must be made by 11:59 PM on March 30st. Late submissions will not be accepted under any circumstances.
               </p>
             </div>
           </div>
