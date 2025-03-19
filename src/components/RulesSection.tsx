@@ -33,9 +33,10 @@ const RulesSection = () => {
   ];
 
   const prizeRules = [
-    "First place: ₹7,500",
-    "Second place: ₹5,000",
+    "First place: ₹6,000",
+    "Second place: ₹4,000",
     "Third place: Swag"
+    "Certificates for all participants"
   ];
 
   const internshipRules = [
