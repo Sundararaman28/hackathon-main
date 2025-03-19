@@ -1,35 +1,195 @@
-import { Club, Code, Layers2, Lightbulb, ShieldAlert, TableOfContents, Trophy, Users } from 'lucide-react';
+import { Club, Code, Layers2, Lightbulb, ShieldAlert, TableOfContents, Trophy, Users,Server,MessageCircle,DollarSign,ClipboardList,Briefcase,GitMerge,Wallet,FileText,Image,MessageSquare,Target,Mail,Bot,Monitor,Mic  } from 'lucide-react';
 
 const AboutSection = () => {
   const features = [
     {
       icon: <ShieldAlert className="h-10 w-10 text-hackathon-accent" />,
-      title: "Focusing on Anomaly Detection/Prediction",
-      description: ["AI for Anomaly Intel: Observability's Next Frontier.","Predictive Observability: AI-Driven Insights","AI: Detecting the Unknown in Observability Data."]
+      title: "AI-Powered Log Anomaly Detector",
+      description: [
+        "Use AI to analyze logs from services (e.g., ClickHouse, Redis, Kafka).",
+        "Detect anomalies or potential failures before they happen.",
+        "Enhancing log observability with AI-driven intelligence."
+      ]
     },
     {
       icon: <Users className="h-10 w-10 text-hackathon-accent" />,
-      title: "Highlighting Automation and Efficiency",
-      description: ["Automated Observability: AI's Role in System Health.","AI-Powered Autopilot: Streamlining Observability.","The Self-Healing System: AI and Observability."]
+      title: "AI-Driven Query Optimizer",
+      description: [
+        "Use machine learning to analyze MySQL EXPLAIN plans.",
+        "Automatically suggest query optimizations.",
+        "Improve database efficiency with AI-powered insights."
+      ]
     },
     {
       icon: <Code className="h-10 w-10 text-hackathon-accent" />,
-      title: "Emphasizing Insights and Understanding",
-      description: ["AI: Unlocking the Secrets of Observability.","Cognitive Observability: AI for Deeper System Understanding.","Illuminating Systems: AI and Observability Insights."]
+      title: "Smart Alert Noise Reduction",
+      description: [
+        "AI model that clusters similar alerts.",
+        "Filters out unnecessary notifications in monitoring dashboards.",
+        "Enhancing system reliability by reducing alert fatigue."
+      ]
     },
     {
       icon: <Club className="h-10 w-10 text-hackathon-accent" />,
-      title: "More Technical and Cutting-Edge",
-      description: ["AI and Observability: Building Intelligent Monitoring Pipelines.","Machine Learning for Observability: Real-Time Insights.","AI-Enhanced Observability: From Data to Action."]
-    } ,{
-      icon: <TableOfContents  className="h-10 w-10 text-hackathon-accent" />,
-      title: "Playing with Metaphors",
-      description: ["The AI Lens: Seeing Through System Complexity.","AI's Digital Doctor: Observability for System Health.","The AI Analyst: Transforming Observability Data."]
+      title: "Auto-Scaling Predictor for Kubernetes",
+      description: [
+        "AI model that predicts when Kubernetes pods need scaling.",
+        "Uses historical metrics for intelligent scaling decisions.",
+        "Ensuring optimal resource utilization with AI."
+      ]
+    },
+    {
+      icon: <TableOfContents className="h-10 w-10 text-hackathon-accent" />,
+      title: "AI-Based Vulnerability Scanner",
+      description: [
+        "Detect security vulnerabilities in container images.",
+        "Analyze Kubernetes configurations for security flaws.",
+        "AI-driven security monitoring for cloud environments."
+      ]
     },
     {
       icon: <Layers2 className="h-10 w-10 text-hackathon-accent" />,
-      title: "Short and Punchy",
-      description: ["AI: The Observability Edge.","Intelligent Systems: AI & Observability.","Observability AI: Evolve Your Monitoring."]
+      title: "Threat Intelligence Bot for MS Teams",
+      description: [
+        "AI assistant that monitors security logs.",
+        "Sends alerts to MS Teams with remediation steps.",
+        "Improving security awareness with real-time AI insights."
+      ]
+    },
+    {
+      icon: <Server className="h-10 w-10 text-hackathon-accent" />,
+      title: "Self-Healing Load Balancer",
+      description: [
+        "AI system that detects traffic bottlenecks.",
+        "Automatically adjusts HAProxy or Nginx configurations.",
+        "Optimizing load balancing with AI-powered automation."
+      ]
+    },
+    {
+      icon: <GitMerge className="h-10 w-10 text-hackathon-accent" />,
+      title: "GitHub PR Review AI",
+      description: [
+        "AI-powered bot that reviews pull requests.",
+        "Suggests improvements and detects vulnerabilities.",
+        "Streamlining code review with intelligent automation."
+      ]
+    },
+    {
+      icon: <Wallet className="h-10 w-10 text-hackathon-accent" />,
+      title: "Expense Categorization AI",
+      description: [
+        "AI-powered system to automatically categorize expenses.",
+        "Analyzes transaction history for smarter spending insights.",
+        "Improving financial tracking with machine learning."
+      ]
+    },
+    {
+      icon: <FileText className="h-10 w-10 text-hackathon-accent" />,
+      title: "Smart Invoice Fraud Detector",
+      description: [
+        "AI model that flags suspicious invoices.",
+        "Detects duplicate payments in company records.",
+        "Preventing financial fraud with AI-driven analysis."
+      ]
+    },
+    {
+      icon: <Image className="h-10 w-10 text-hackathon-accent" />,
+      title: "AI-Powered Meme Generator",
+      description: [
+        "AI model that generates memes based on trending topics.",
+        "Enhances engagement with AI-driven humor.",
+        "Bringing creativity and fun to content creation."
+      ]
+    },
+    {
+      icon: <MessageSquare className="h-10 w-10 text-hackathon-accent" />,
+      title: "AI-Powered Chatbot for Hackathons",
+      description: [
+        "AI bot that answers hackathon-related questions.",
+        "Suggests projects and helps teams find members.",
+        "Enhancing collaboration with AI-driven support."
+      ]
+    },
+    {
+      icon: <Target className="h-10 w-10 text-hackathon-accent" />,
+      title: "AI-Powered Lead Scoring",
+      description: [
+        "Analyze customer interactions and rank leads.",
+        "Uses AI to predict conversion probability.",
+        "Optimizing sales processes with data-driven insights."
+      ]
+    },
+    {
+      icon: <Mail className="h-10 w-10 text-hackathon-accent" />,
+      title: "Automated Personalized Email Campaigns",
+      description: [
+        "AI that generates personalized email content.",
+        "Uses behavior data to tailor outreach strategies.",
+        "Improving email engagement with intelligent automation."
+      ]
+    },
+    {
+      icon: <Bot className="h-10 w-10 text-hackathon-accent" />,
+      title: "AI-Powered Sales Chatbot",
+      description: [
+        "Chatbot that understands customer queries.",
+        "Suggests relevant products or services.",
+        "Enhancing customer engagement with AI-driven conversations."
+      ]
+    },
+    {
+      icon: <Monitor className="h-10 w-10 text-hackathon-accent" />,
+      title: "AI-Powered Sentiment Analysis for Brand Monitoring",
+      description: [
+        "Monitor online mentions and reviews.",
+        "Analyze customer sentiment using AI models.",
+        "Providing actionable insights for brand strategy."
+      ]
+    },
+    {
+      icon: <Briefcase className="h-10 w-10 text-hackathon-accent" />,
+      title: "Resume Analyzer & Job Match AI",
+      description: [
+        "AI tool that scans resumes and recommends jobs.",
+        "Matches skills and experience with job opportunities.",
+        "Helping job seekers find the right career fit."
+      ]
+    },
+    {
+      icon: <Mic className="h-10 w-10 text-hackathon-accent" />,
+      title: "AI-Powered Interview Coach",
+      description: [
+        "Virtual AI coach that conducts mock interviews.",
+        "Provides feedback on answers, tone, and confidence.",
+        "Helping candidates improve their interview skills."
+      ]
+    },
+    {
+      icon: <ClipboardList className="h-10 w-10 text-hackathon-accent" />,
+      title: "Automated Financial Report Generator",
+      description: [
+        "AI that generates financial summaries and reports.",
+        "Creates balance sheets and profit & loss statements.",
+        "Automating financial analysis with AI insights."
+      ]
+    },
+    {
+      icon: <DollarSign className="h-10 w-10 text-hackathon-accent" />,
+      title: "Expense Prediction & Budgeting AI",
+      description: [
+        "AI tool that predicts future expenses.",
+        "Uses past transactions to suggest budgeting strategies.",
+        "Helping users manage finances efficiently."
+      ]
+    },
+    {
+      icon: <MessageCircle className="h-10 w-10 text-hackathon-accent" />,
+      title: "Automated Tax Deduction Finder",
+      description: [
+        "AI that scans receipts to identify tax deductions.",
+        "Helps users maximize tax savings.",
+        "Simplifying tax filing with intelligent automation."
+      ]
     }
   ];
 
@@ -52,7 +212,7 @@ const AboutSection = () => {
           </p>
           <p className="text-muted-foreground text-lg pt-4">
           Atatus is a next-generation observability platform designed to empower modern software teams with real-time, full-stack monitoring. Our solution seamlessly integrates application performance monitoring (APM), infrastructure monitoring, and user experience monitoring into one intuitive interface—making it easier than ever to detect, diagnose, and resolve issues before they impact your users.
-
++
           </p>
           
           <div className="mt-6">
