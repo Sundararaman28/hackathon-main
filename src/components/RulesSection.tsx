@@ -35,7 +35,7 @@ const RulesSection = () => {
   const prizeRules = [
     "First place: ₹6,000",
     "Second place: ₹4,000",
-    "Third place: Swag"
+    "Third place: Swag",
     "Certificates for all participants"
   ];
 
