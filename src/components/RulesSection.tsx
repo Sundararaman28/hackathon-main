@@ -29,7 +29,7 @@ const RulesSection = () => {
 
   const dateRules = [
     "The hackathon will run from March 24th to March 30st.",
-    "Results will be announced on April 7th."
+    "Results will be announced on April 14th."
   ];
 
   const prizeRules = [
