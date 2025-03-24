@@ -3,7 +3,7 @@ import { Club, Code, Layers2, Lightbulb, ShieldAlert, TableOfContents, Trophy, U
 const AboutSection = () => {
   const features = [
     {
-      icon: <ShieldAlert className="h-10 w-10 text-hackathon-accent" />,
+      icon: <Users className="h-10 w-10 text-hackathon-accent" />,
       title: "AI-Powered Log Anomaly Detector",
       description: [
         "Use AI to analyze logs from services (e.g., ClickHouse, Redis, Kafka).",
@@ -12,7 +12,7 @@ const AboutSection = () => {
       ]
     },
     {
-      icon: <Users className="h-10 w-10 text-hackathon-accent" />,
+      icon: <ShieldAlert className="h-10 w-10 text-hackathon-accent" />,
       title: "AI-Driven Query Optimizer",
       description: [
         "Use machine learning to analyze MySQL EXPLAIN plans.",
