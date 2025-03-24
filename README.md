@@ -1,4 +1,4 @@
-# Lovable Project - [Project Name]
+# Project - [Hackathon Web]
 
 [![Open in Lovable](https://img.shields.io/badge/Open%20in-Lovable-blue)](https://lovable.dev/projects/25538515-872d-4ffe-84b1-abbcfdba20ee)
 
