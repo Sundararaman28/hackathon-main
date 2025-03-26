@@ -72,15 +72,15 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="text-white/70">
                 <span className="block font-medium text-white">Registration Deadline:</span>
-                <span>March 22, 2025</span>
+                <span>April 6, 2025</span>
               </li>
               <li className="text-white/70">
                 <span className="block font-medium text-white">Kickoff Event:</span>
-                <span>March 24, 2025</span>
+                <span>April 7, 2025</span>
               </li>
               <li className="text-white/70">
                 <span className="block font-medium text-white">Submission Deadline:</span>
-                <span>March 30, 2025</span>
+                <span>April 14, 2025</span>
               </li>
             </ul>
           </div>
