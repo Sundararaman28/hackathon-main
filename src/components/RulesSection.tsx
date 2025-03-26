@@ -28,14 +28,13 @@ const RulesSection = () => {
   ];
 
   const dateRules = [
-    "The hackathon will run from March 24th to March 30st.",
-    "Results will be announced on April 14th."
+    "The hackathon will run from April 7th to April 14st.",
+    "Results will be announced on April 30th."
   ];
 
   const prizeRules = [
     "First place: ₹6,000",
     "Second place: ₹4,000",
-    "Third place: Swag",
     "Certificates for all participants."
   ];
 
@@ -116,7 +115,7 @@ const RulesSection = () => {
                   </div>
                   <div>
                     <p className="font-medium text-hackathon-dark">Hackathon Period</p>
-                    <p className="text-sm text-muted-foreground">March 24th - March 30st, 2025</p>
+                    <p className="text-sm text-muted-foreground">April 7th - April 14th, 2025</p>
                   </div>
                 </div>
                 
@@ -126,7 +125,7 @@ const RulesSection = () => {
                   </div>
                   <div>
                     <p className="font-medium text-hackathon-dark">Results Announcement</p>
-                    <p className="text-sm text-muted-foreground">April 7th, 2025</p>
+                    <p className="text-sm text-muted-foreground">April 30th, 2025</p>
                   </div>
                 </div>
               </div>
@@ -254,7 +253,7 @@ const RulesSection = () => {
               </h3>
               
               <p className="mt-4 text-muted-foreground">
-                All submissions must be made by 11:59 PM on March 30st. Late submissions will not be accepted under any circumstances.
+                All submissions must be made by 11:59 PM on April 14th. Late submissions will not be accepted under any circumstances.
               </p>
             </div>
           </div>
