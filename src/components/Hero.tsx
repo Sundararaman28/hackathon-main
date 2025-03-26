@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="opacity-0 animate-fade-in animate-delay-100">
           <div className="inline-block rounded-full bg-white/10 backdrop-blur-sm px-4 py-1 mb-6 border border-white/20">
             <p className="text-hackathon-accent font-medium">
-              April 7 - 14, 2025
+              April 7 - 13, 2025
             </p>
           </div>
         </div>
